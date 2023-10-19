@@ -1,0 +1,102 @@
+/* styles.css */
+.search-results {
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-item h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.product-discount {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+/* CSS */
+.button-37 {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+button {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+.button-37:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .button-37 {
+        padding: 10px 30px;
+    }
+}
